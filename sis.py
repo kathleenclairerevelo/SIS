@@ -7,7 +7,7 @@ import os
 #Defines the dimensions and position of the main window
 root = Tk()
 root.config(bg="#B0C4DE")
-root.title("Student Information System - J.C.S.B.M")
+root.title("Student Information System - K.C.U.R")
 root.resizable(0,0)
 root.geometry("500x700")
 positionRight = int((root.winfo_screenwidth()/2 - 250))
