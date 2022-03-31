@@ -9,7 +9,7 @@ root = Tk()
 root.config(bg="#B0C4DE")
 root.title("Student Information System - J.C.S.B.M")
 root.resizable(0,0)
-root.geometry("700x800")
+root.geometry("500x700")
 positionRight = int((root.winfo_screenwidth()/2 - 250))
 positionDown = int((root.winfo_screenheight()/2 - 315))
 root.geometry("+{}+{}".format(positionRight, positionDown))
@@ -145,7 +145,7 @@ def info_window(command,student):
                 
         #Creates a new window
         infoWindow = Toplevel()
-        infoWindow.configure(bg="#FFC0CB")
+        infoWindow.configure(bg="#B0C4DE")
         infoWindow.title("Add Student" if command == "add" else "Edit Student")
         infoWindow.resizable(0,0)
         infoWindow.geometry("500x270")
